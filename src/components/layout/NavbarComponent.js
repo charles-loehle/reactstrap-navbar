@@ -23,13 +23,13 @@ const NavbarComponent = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto mr-4" navbar>
             <NavItem>
-              <NavLink tag={RRNavLink} to="/">
-                Home
+              <NavLink tag={RRNavLink} to="/register">
+                Register
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={RRNavLink} to="/about">
-                About
+              <NavLink tag={RRNavLink} to="/login">
+                Login
               </NavLink>
             </NavItem>
           </Nav>
